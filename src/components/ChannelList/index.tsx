@@ -12,11 +12,11 @@ const ChannelList: React.FC = () => {
         <AddCategoryIcon />
       </Category>
 
-      <ChannelButton channelName="chat-livre" />
-      <ChannelButton channelName="trabalho" />
-      <ChannelButton channelName="lolzinho" />
-      <ChannelButton channelName="csgo" />
-      <ChannelButton channelName="valorant" />
+      <ChannelButton channelName="Chat-livre" />
+      <ChannelButton channelName="Trabalho" />
+      <ChannelButton channelName="Csgo" />
+      <ChannelButton channelName="Gta5" />
+      <ChannelButton channelName="Arma3" />
     </Container>
   );
 };
