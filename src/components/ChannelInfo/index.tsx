@@ -1,19 +1,25 @@
 import React from "react";
 
-import { Container, HastagIcon, Title, Separador, Description } from "./styles";
+import {
+  Container,
+  HashtagIcon,
+  Title,
+  Separator,
+  Description,
+} from "./styles";
 
-const ChanelInfo: React.FC = () => {
+const ChannelInfo: React.FC = () => {
   return (
     <Container>
-      <HastagIcon />
+      <HashtagIcon />
 
-      <Title>Chat-livre</Title>
+      <Title>chat-livre</Title>
 
-      <Separador />
+      <Separator />
 
       <Description>Canal aberto para conversas</Description>
     </Container>
   );
 };
 
-export default ChanelInfo;
+export default ChannelInfo;
