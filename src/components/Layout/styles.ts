@@ -6,6 +6,7 @@ import styled from "styled-components";
 //CL - Channel List
 //CD - Channel Data
 //UI - User Info
+//UL - User List
 
 export const Grid = styled.div`
   display: grid;
